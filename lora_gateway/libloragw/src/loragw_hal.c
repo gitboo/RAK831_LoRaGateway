@@ -714,8 +714,8 @@ void lgw_constant_adjust(void) {
 	lgw_reg_w(LGW_FRAME_SYNCH_PEAK1_POS,3); /* default 1 */
 	lgw_reg_w(LGW_FRAME_SYNCH_PEAK2_POS,4); /* default 2 */
 	#elif (CFG_NET_PRIVATE == 1)
-	//lgw_reg_w(LGW_FRAME_SYNCH_PEAK1_POS,1); /* default 1 */
-	//lgw_reg_w(LGW_FRAME_SYNCH_PEAK2_POS,2); /* default 2 */
+	lgw_reg_w(LGW_FRAME_SYNCH_PEAK1_POS,1); /* default 1 */
+	lgw_reg_w(LGW_FRAME_SYNCH_PEAK2_POS,2); /* default 2 */
 	#endif
 	// lgw_reg_w(LGW_PREAMBLE_FINE_TIMING_GAIN,1); /* default 1 */
 	// lgw_reg_w(LGW_ONLY_CRC_EN,1); /* default 1 */
@@ -735,8 +735,8 @@ void lgw_constant_adjust(void) {
 	lgw_reg_w(LGW_MBWSSF_FRAME_SYNCH_PEAK1_POS,3); /* default 1 */
 	lgw_reg_w(LGW_MBWSSF_FRAME_SYNCH_PEAK2_POS,4); /* default 2 */
 	#elif (CFG_NET_PRIVATE == 1)
-	//lgw_reg_w(LGW_MBWSSF_FRAME_SYNCH_PEAK1_POS,1); /* default 1 */
-	//lgw_reg_w(LGW_MBWSSF_FRAME_SYNCH_PEAK2_POS,2); /* default 2 */
+	lgw_reg_w(LGW_MBWSSF_FRAME_SYNCH_PEAK1_POS,1); /* default 1 */
+	lgw_reg_w(LGW_MBWSSF_FRAME_SYNCH_PEAK2_POS,2); /* default 2 */
 	#endif
 	// lgw_reg_w(LGW_MBWSSF_ONLY_CRC_EN,1); /* default 1 */
 	// lgw_reg_w(LGW_MBWSSF_PAYLOAD_FINE_TIMING_GAIN,2); /* default 2 */
